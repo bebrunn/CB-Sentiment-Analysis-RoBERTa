@@ -7,7 +7,7 @@ This repository contains the code for creating the dataset, conducting sentiment
 The repository includes the following key components:
 
 - **Dataset Creation**: The script `cbminutes_dataset.py` handles the compilation and preprocessing of the data, which is later used in the sentiment analysis.
-- **Sentiment Analysis**: The `sentiment_analysis.py` script fine-tunes the RoBERTa model (Liu et al., 2019) for sentiment analysis of central bank minutes.
+- **Sentiment Analysis**: The `sentiment_analysis.py` script fine-tunes the RoBERTa model (Liu, 2019) for sentiment analysis of central bank minutes.
 - **Inference on Unseen Documents**: The script `predict_sentiment.py` performs sentiment analysis on new, unseen documents, using the fine-tuned RoBERTa model.
 
 ## Note on Data and Requirements
